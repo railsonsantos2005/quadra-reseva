@@ -1,0 +1,25 @@
+@echo off
+
+echo Configurando Git...
+set PATH=%PATH%;C:\Program Files\Git\bin
+
+:: Configurar nome e email do GitHub
+git config --global user.name "railsonsantos2005"
+git config --global user.email "seu_email@gmail.com"
+
+:: Inicializar repositório
+echo Inicializando repositório Git...
+git init
+git add .
+git commit -m "Primeiro commit - Sistema de Reserva de Quadras"
+
+:: Adicionar repositório remoto
+echo Adicionando repositório remoto...
+git remote add origin https://github.com/railsonsantos2005/quadra-reseva.git
+
+:: Fazer push para o GitHub
+echo Fazendo push para o GitHub...
+git push -u origin master
+
+echo Upload concluído!
+pause

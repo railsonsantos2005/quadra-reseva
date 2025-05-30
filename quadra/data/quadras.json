@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nome": "Quadra 1",
+        "tipo": "Futsal",
+        "disponivel": true,
+        "descricao": "Quadra principal para futsal, com piso sintético"
+    },
+    {
+        "id": 2,
+        "nome": "Quadra 2",
+        "tipo": "Basquete",
+        "disponivel": true,
+        "descricao": "Quadra coberta para basquete, com piso de madeira"
+    },
+    {
+        "id": 3,
+        "nome": "Quadra 3",
+        "tipo": "Vôlei",
+        "disponivel": false,
+        "descricao": "Quadra de vôlei em manutenção"
+    }
+]
